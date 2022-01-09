@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Nunito', sans-serif;
+    list-style-type: none;
+
+}
+ul {
+    display: flex;
+    background: rgb(24, 15, 15);
+    height: 10vh;
+    list-style: none;
+    color: white;
+    font-size: 40px;
+    
+}
+ul li {
+    padding: 18px 10px; 
+}
+ul li a {
+    color: white;
+    padding: 2rem 2rem;
+
+    text-decoration: none;
+
+}
+.section1 {
+    height: 100vh;
+    background: rgb(86, 216, 86);
+    width: 100%;
+}
+
+.venom {
+    height: 700px;
+    padding-left: 730px;
+    margin-top: 200px;
+}
+h1 {
+    position: relative;
+    bottom: 50%;
+    margin-left: 50px;
+    font-size: 70px;
+    
+    text-align: left;
+    line-height: 3.9rem;
+    color: #fff;
+}
+
+.section2 {
+    height: 100vh; 
+    background: rgb(39, 35, 35);
+}
+.spiderman {
+    position: absolute;
+    height: 700px;
+    margin: 200px 20px;
+
+}
+h2 {
+    position: relative;
+    top: 40%;
+    font-size: 70px;
+    padding: 5%;
+
+    text-align: right;
+    line-height: 3.9rem;
+    color: #fff;
+}
+.section3 {
+    height: 20vh;
+    background: rgb(138, 231, 138);
+    display: flex;
+}
+.Texts {
+    display: flex;
+    padding: 70px;
+    color: #fff;
+}
+h3 {
+    position: relative;
+    font-size: 50px;
+
+    left: 5%;;
+    color: rgb(10, 10, 189);
+
+}
+h4 {
+    position: relative;
+    font-size: 50px;
+
+    left: 10%;
+}
+h5 {
+    position: relative;
+    font-size: 50px;
+
+    left: 25%;
+    color: rgb(190, 9, 9)
+
+}
+h6 {
+    position: relative;
+    font-size: 50px;
+
+    left: 30%;
+    
+}

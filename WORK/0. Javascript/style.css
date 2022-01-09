@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --yellow: #cc8bce;
+    --violet: rgb(179, 26, 250);
+}
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0;  
+    text-transform: capitalize;
+}
+ *::selection { /* ito naman ay pangselect */
+    background: var(--violet);
+ }
+ html { /* ito ung nimamaintain niya ung size ng text */
+     font-size: 85.5%;
+ }
+ html::-webkit-scrollbar {
+     width: 1rem;
+ }
+ html::-webkit-scrollbar-track{
+    background: #222;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--yellow);
+
+} 
+.more.pens {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    z-index: 10;
+    font-family: "Poppins";
+    font-size: 12px;
+    text-align: center;
+}
+a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
+    font-family: "Poppins";
+    font-size: 13px;
+    text-decoration: none;
+    background: #212121;
+    padding: 4px 8px;
+    color: #f7f7f7;
+}
+a.white-mode:hover, a.white-mode:link:hover, a.white-mode:visited:hover, a.white-mode:active:hover {
+    background: #edf3f8;
+    color: #212121;
+}
+
+body {
+    overflow: hidden;
+    background: #000000;
+}
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}
+ img {
+    z-index: 10;
+    left: 50%;
+    height: 17rem;
+    width: 17rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover; /*  ito ung nagccover ng pic  */
+    margin-bottom: 1rem;
+    border: .3rem solid var(--yellow);
+}
+.title {
+    z-index: 10;
+    position: absolute;
+    width: 550px;
+    left: 43%;
+    top: 35%;
+    color:rgb(255, 0, 0);
+    transform: translate(-0%,-0%);
+}
+.title h3 {
+    position: relative;
+    left: 55px;
+    margin: 0px 0px 10px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+.title p {
+    position: relative;
+    right: 10px;
+    font-size: 23px;
+}
+
+.bg-section2 {
+    background-color: rgba(27, 105, 51, 0.322);
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-section3 { 
+    background-color: rgba(84, 7, 87, 0.753);
+    height: 100vh;
+    width: 100%;
+} 
+
+
+
+
+
+

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Quicksand:wght@300&family=Roboto+Slab:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background: url(img/background-img.jpg);
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    z-index: 3;
+
+    width: 50px;
+    height: 10vh;
+    font-size: 23px;
+}
+ul {
+    display: flex;
+    margin: 20px 33vh;
+}
+ul li a{
+    display: flex;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+#section1 {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    color: white;
+    
+    bottom: 700px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.name { /* itatak mo sa utak mo na ito ung sa text sizing*/
+    z-index: 4;
+    position: relative;
+    font-size: 110px;
+
+    left: 550px;
+    width: 20px;
+    top: 180px;
+    animation: name 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes name {
+    from {
+      text-shadow: 0 0 5px #fff, 
+                   0 0 15px #fff;
+    }
+    
+    to {
+      text-shadow: 0 0 5px #fff, 
+                   0 0 15px #fff;
+    }
+  }
+
+.IT {
+    position: absolute;
+    display: flex;
+
+    left: 46.9vh;
+    top: 170px;
+}
+h1 {
+    font-size: 25px;
+    width: 480px; 
+}
+h2 {
+    font-size: 25px;
+    width: 250px;
+}
+h3 {
+    font-size: 25px;
+    width: 410px;
+}
+.One {
+    color: #FF9489;
+}
+.Two {
+    color: #FAFF63;
+}
+.Three {
+    color: #9EFFED;
+}
+p {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+
+
+    font-size: 31px;
+    top: 36vh;
+    left: 56.5vh;
+    width: 120vh;  
+}
+.TextOne {
+    left: 438px;
+}
+.TextTwo {
+    left: 320px;
+    top: 376px;
+}
+.TextThree {
+    left: 445px;
+    top: 412px;
+}
+.Circle {
+    position: relative;
+    background: white;
+
+    width: 440px;
+    height: 440px;
+    border-radius: 440px;
+    z-index: -1;
+}
+.mainpic {
+    z-index: 5;
+    padding: 0px 10PX;
+    height: 133vh;
+
+}
+.Franklin {
+    margin: 10px 20px;
+    width: 500px;
+    height: 10vh;
+
+    position: relative;
+    right: 6%;
+    bottom: 23.5vh;
+}
+.Bilog {
+    position: absolute;
+    margin: 100px 10px;
+}
+
+.Images {
+    display: flex;
+
+    height: 100px;
+    margin: 335px 40%;
+}
+.imgHtml {
+    position: relative;
+    left: 0px;
+}
+.imgCss {
+    position: relative;
+    left: 50px;
+
+}
+.imgPs {
+    position: relative;
+    left: 90px;
+    top: 10px;
+
+    height: 85px;
+
+}
+.imgXd {
+    position: relative;
+    left: 115px;
+    bottom: 10px;
+    
+    height: 123px;
+}
+
+
+/* 
+
+header {
+    position: relative;
+    text-align: center;
+    z-index: 3;
+
+    width: 50px;
+    height: 10vh;
+    font-size: 23px;
+}
+ul {
+    display: flex;
+    margin: 20px 33vh;
+}
+ul li a{
+    display: flex;
+    width: 300px;
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+*/
+
+@media (max-width: 900px) {
+    header {
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+
+        z-index: 10;
+        height: 100vh;
+        font-size: 4rem;
+        width: 900px;
+        background: url(img/background-img.jpg);
+    }
+    ul {
+        display: inline;
+        width: 900px;
+        
+        padding: 500px 75px;
+    }
+    ul li a {
+        position: absolute;
+        display: inline;
+        
+        width: 900px;
+        right: 80px;
+        color: rgb(247, 247, 247);
+    }
+    .Web {
+        top: 20%;
+    }
+    .Des {
+        top: 40%;
+    }
+    .App {
+        top: 60%;
+    }
+    .Abo {
+        top: 80%;
+    }
+
+}
