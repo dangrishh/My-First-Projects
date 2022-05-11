@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    background: rgb(255, 255, 255);
+
+    display: grid;
+
+    /*======= REPEAT ======== *\
+    grid-template-rows: repeat(4, 1fr); */
+
+    /*====== Auto Fill ======= *\
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+        ito dito gagawa siya ng mga grid */
+
+    /* ======= Auto Fit ======= */
+    grid-template-columns: repeat(auto-fit,minmax(200px, 50px));
+
+}
+h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    top: 25%;
+    font-size: 1rem;
+}
+.group1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: #101528;
+}
+.group2 {
+    grid-column: 2/14;
+    grid-row: 1/2;
+    background: #EF3D49;
+}
+.group3 {
+    grid-column: 1/14;
+    grid-row: 2/13;
+    background: #4C86C6; 
+}
+.HERO {   
+    position: relative;
+    text-align: center;
+    top: 45%;
+}
+.group4 {
+    grid-column: 1/5;
+    grid-row: 13/19;
+    background: #24344B;
+}
+.MAIN {   
+    position: relative;
+    text-align: center;
+    top: 45%;
+}
+.group5 {
+    grid-column: 5/6;
+    grid-row: 13/19;
+    background: #2b2323; 
+}
+.group6 {
+    grid-column: 14/6;
+    grid-row: 13/16;
+    background: #C3E2E4;
+} 
+.group7 {
+    grid-column: 14/6;
+    grid-row: 16/19;
+    background: #4ABE97; 
+}
+.group8 {
+    grid-column: 1/14;
+    grid-row: 19/21;
+    background: #FED269;
+} 
+.Three {   
+    position: relative;
+    text-align: center;
+    top: 10%;
+}

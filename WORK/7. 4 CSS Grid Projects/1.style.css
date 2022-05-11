@@ -1,0 +1,85 @@
+* {
+    margin: 2;
+    padding: 0;
+    font-size: 1.6rem;
+
+}
+/* main {s
+    position: relative;
+
+
+    height: 100vh;
+    background: rgb(255, 255, 255);
+
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(4, 1fr);
+
+     padding: 5px;
+
+}
+h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    top: 44%;
+    font-size: 2rem;
+}
+.group1 {
+    grid-column: 1 / span 2;
+    background: #32332D;
+}
+.group2 { 
+    grid-row: 1 / 2;
+    grid-column: 3 / span 2;
+    background: #39A0ED;
+}
+.group3 {
+    grid-column: span 4;
+    background: #16C4A1; 
+}
+.group4 {
+    grid-column: 1 /span 2;
+    background: #32332D;
+}
+.group5 { 
+    grid-column: span 2 ;
+    background: #a7d6cd; 
+} */
+.main {
+    height: 100vh;
+    background: white;
+    color:white;
+
+    display: grid;
+    gap: .5rem;
+    grid-template-areas: 
+        "group1 group1"
+        "group2 group3"
+        "group4 group4";
+}
+h1 {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    
+    top: 15%;
+    font-size: 3rem;
+}
+.group1 {
+    grid-area: group1;
+    background: #00B7D6;
+}
+.group2 {
+    grid-area: group2;
+    background: #A6A6DF;
+}
+.group3 {
+    grid-area: group3;
+    background: #E35AD0;
+}
+.group4 {
+    grid-area: group4;
+    background: #FF56CD;
+}
