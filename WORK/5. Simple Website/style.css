@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --white: #fff;
+    --whiteBackground: #EBE5E5;
+    --black: #000;
+    --red: #E83455;
+    --skyblue: #60D0D4;
+    --yellow: #D1C925;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+*::selection {
+    background: var(--whiteBackground);
+}
+body {
+    overflow: hidden;
+    background: var(--red);
+
+}
+
+
+
+header {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: var(--black);
+
+    padding: 50px 200px;
+    left: 10vh;
+}
+
+ul {
+    position: relative;
+    display: flex;
+
+    font-size: 1.3rem;
+    margin: 74px 0;
+    right: 740px;
+}
+ul li a {
+    color: var(--black);
+
+    margin-left: 50px;
+}
+.DT {
+    position: relative;
+    margin-top: 15px;
+    margin-right: 500px;
+}
+h1 {
+    position: relative;
+    font-family: 'Aclonica', sans-serif;
+
+    font-size: 3.2rem;
+    right: 200px;
+    width: 600px;
+}
+.DTev {
+    position: relative;
+
+
+    font-size: 1.3rem;
+    right: 185px;
+    width: 480px;
+}
+.HOME {
+    color: var(--skyblue);
+}
+
+main {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+
+    margin: 220px 200px;
+}
+
+.Texts {
+    position: relative;
+
+    margin: 20px;
+}
+.Img-DT {
+    position: relative;
+    right: 50px;
+}
+.mainpic {
+    height: 420px;
+}
+.ContainerTexts {
+    position: absolute;
+
+    width: 1000px;
+}
+.ConTexts {
+    position: relative;
+
+    font-size: 3.8rem;
+    bottom: 410px;
+    left: 80px;
+}
+h2 {
+    font-family: 'Aclonica', sans-serif;
+}
+h3 {
+    position: relative;
+    font-weight: 200;
+    left: 78px;
+
+    font-size: 3.6rem;
+}
+
+.ContainerCircle {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: flex;
+
+    font-size: .8rem;
+    bottom: 380px;
+    left: 44%;
+}
+h4 {
+    position: relative;
+    width: 200px;
+    right: 25px;
+}
+.Bilog1 {
+    position: relative;
+    background: var(--red);
+
+    height: 140px;
+    width: 140px;
+    border-radius: 140px;
+    padding-top: 61px;
+}
+
+.Bilog2 {
+    background: var(--skyblue);
+    height: 140px;
+    width: 140px;
+
+    border-radius: 140px;
+    margin-left: 30px;
+    padding-top: 61px;
+
+}
+.Two {
+    position: relative;
+    right: 28px;
+}
+.Bilog3 {
+    background: var(--yellow);
+    height: 140px;
+    width: 140px;
+
+    border-radius: 140px;
+    margin-left: 30px;
+    padding-top: 61px;
+}
+.Three {
+    position: relative;
+    right: 28px;
+}
+.Paragraph { 
+    position: relative;
+    width: 480px;
+
+    font-size: .8rem;
+    top: 17vh;
+    right: 50vh;
+}
+.pass {
+    position: relative;
+    text-align: left;
+    z-index: 10;
+   
+    top: .4vh;
+}
+
+footer {
+    color: var(--white);
+    background: var(--whiteBackground);
+
+    height: 85vh;
+
+}
+.Foorter1 {
+    position: absolute;
+
+    top: 90vh;
+    left: 24.5vh;
+}
+h5 {
+    position: relative;
+    font-size: 1rem;
+}
+.Foorter2 {
+    position: relative;
+    font-weight: bold;
+
+    left: 300px;
+    bottom: 60px;
+}
+.OH6 {
+    font-size: 1rem;
+}
+.h6 {
+    font-size: .8rem;
+    font-weight: 400;
+}
+
+.Foorter3 {
+    position: relative;
+    font-weight: bold;
+
+    left: 315px;
+    bottom: 35px;
+}
+
+
+.Foorter4 {
+    position: relative;
+    font-weight: 450;
+
+    left: 255px;
+    bottom: 13px;
+
+}
+.h8 {
+    position: absolute;
+
+    top: 20px;
+    right: 74px;
+}
+.Images {
+    position: relative;
+    display: flex;
+
+    height: 50px;
+    top: 90vh;  
+    left: 18vh; 
+}
+
+.ImgEmail {
+    position: relative;
+
+    left: 250px;
+}
+
+.ImgLikes {
+    position: relative;
+
+    left: 52.9vh;
+}
+
+.ImgGlobal {
+    position: relative;
+
+    left: 38%;
+}
+.ImgTwiFace1 {
+    position: relative;
+
+    left: 490px;
+    height: 25px;
+    top: 23px;
+}
+.ImgTwiFace2 {
+    position: relative;
+
+    left: 500px;
+    height: 25px;
+    top: 23px;
+}
