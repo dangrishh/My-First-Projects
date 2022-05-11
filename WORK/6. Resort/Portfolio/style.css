@@ -1,0 +1,249 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(100, 99, 99);
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    outline: none;
+    border: none;
+}
+input {
+    outline: none;
+    border: none;
+}
+.logo img {
+    
+    width: 100px;
+}
+/* this is navigation */
+nav{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-around;
+    align-items:  center;
+    box-shadow: 5px 10px 30px rgba(145, 37, 235, 0.616);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #323445;
+    animation: MyNav 5s infinite;
+}
+@keyframes MyNav {
+    50% {box-shadow: 10px 20px 30px rgb(64, 42, 189);}
+  }
+nav ul {
+    display: flex;
+    z-index: 3;
+    
+}
+
+.dt {
+    position: relative;
+
+    margin-left: 100vh;
+}
+.dt-pic {
+    position: relative;
+
+    height: 1000px;
+}
+
+nav ul li a {
+    font-family: 'Raleway',sans-serif;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;    
+    padding: 0px 17px;
+    display: flex;
+    font-size: 0,7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 1px;
+    transition: 0.6s ease;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid #ff66ff;
+}
+/*.active{
+    border-bottom: 2px solid #4b8dd8;
+    box-shadow: 5px 10px 30px rgba(122, 176, 207, 0.445);
+} */
+/* HEADER */
+#header {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    background-image: url(img/bg.svg);
+}
+
+@media (max-width: 1600px) {
+    .header {
+    background-image: url(img/res-bg1.jpg);
+    }
+}
+
+@media (max-width: 800px) {
+    .work {
+        background: url(img/img2/res2/res-2bg.jpg);
+    }
+}
+
+.header-heading {
+    width: 400px;
+    position: absolute;
+    left: 18%;
+    top: 50%;
+    color: #fff;
+    transform: translate(-18%,-50%);
+}
+.header-heading h1 {
+    font-size: 44px;
+    margin: 0px;    
+    letter-spacing: 3px;
+}
+.header-heading h1 span {
+    color: #ff66ff;
+}
+.header-heading p {
+     color: #c0c0c0;
+}
+.header-btn {
+    width: 160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBBB37;
+    box-shadow: 5px 10px 30px rgba(255, 0, 221, 0.445);
+    border-radius: 30px;
+    color: black;
+    margin-top: 25px;
+    transition: 0,6s ease-in-out;
+    cursor: pointer;
+}
+.header-btn:hover{
+    background-color: #FBBB37;
+}
+/*--------ABOUT-----------*/
+#about {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #323445;
+    width: 100%;
+    height: 110vh;
+    padding: 50px 0px 0px 5%;
+
+}
+
+.about-img {
+    position: relative;
+    margin: 100px 10px;
+    right: 2%;
+    top: 10%;
+}
+.about-img img{
+    height: 800px;
+}
+.about-text {
+    width: 50%;
+
+    position: relative;
+    color: #fff;
+    bottom: 74%;
+    left: 44rem;
+    font-size: .9rem;
+}
+.about-text h2 {
+    line-height: .4;
+}
+.about-text span {
+    color: #fff; 
+    font-weight: bold;
+
+    font-size: 1rem;  
+}
+.about-text .-h1 {
+    position: relative;
+
+    font-size: 4rem;
+    bottom: 170px;
+    left: 22px;
+}
+.about-text .d-h1 {
+
+    position: relative;
+    font-size: 9rem;
+    bottom: 42.9vh;
+    color: rgba(228, 228, 228, 0.075);
+
+}
+.about-text p {
+    position: relative;
+
+    left: 13%;
+    bottom: 30.5rem;
+    width: 600px;
+    color: #727272;
+    line-height: 1.7;
+    font-size: 1.2rem;
+}
+
+.data { 
+    position: relative;
+    
+    left: 13%;
+    bottom: 50vh;
+    font-size: 1.1rem;
+}
+.txts {
+    position: relative;
+
+    bottom: 26px;
+    font-size: 1rem;
+    color: #727272;
+}
+.one {
+    position: relative;
+    left: 16%;
+}
+.two {
+    position: relative;
+    left: 16%;
+}
+.three {
+    position: relative;
+    left: 16%;
+}
+.four {
+    position: relative;
+    left: 16%;
+}
+.five {
+    position: relative;
+    left: 16%;
+}
+

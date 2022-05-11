@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300&family=Montserrat:wght@300&family=Open+Sans&family=Poppins:wght@600&family=Roboto:wght@300&display=swap');
+:root {
+    --white: rgba(255, 255, 255, 0.842);
+    --black: rgb(0, 0, 0);
+    --yellow: rgba(236, 236, 173, 0.808);
+}
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.bg1 {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url(img/background.jpg);
+    background-size: cover;
+}
+.header {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.container-logo {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+
+    top: 36%;
+}
+.container-logo img {
+    height: 150px;
+    cursor: pointer;
+}
+ul {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+
+    font-size: 1.5rem;
+    font-weight: 900;
+    right: 150px;
+}
+ul li {
+    position: relative;
+    top: 70px;
+    
+}
+ul li a {
+    position: relative;
+    color: var(--white);
+    margin-left: 240px;
+}
+ul li .one {
+    position: relative;
+    left: 115px;
+} 
+/* main */
+.main {
+    position: relative;
+
+    top: 30%;
+}
+.parag-container {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
+
+    width: 50%;
+    font-size: 2.5rem;
+    margin: 110px 500px;
+}
+.parag-container h2 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 400;
+    font-size: 1.8rem;
+    letter-spacing: 6px;
+}
+
+.parag-container h1 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    
+    padding-right: 380px;
+    letter-spacing: 20px;
+    font-weight: 600;
+    font-size: 3.7rem;
+    width: 140%;
+    bottom: 5px;
+}
+.parag-container p {
+    position: relative;
+    text-align: center;
+
+    top: 30px;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}

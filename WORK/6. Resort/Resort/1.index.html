@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="1.style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srjo</title>
+</head>
+<body class="body">
+    <header>
+        <div class="wrapper">
+            <a href="https://www.facebook.com/srjofuncentral/">
+                <img src="img/Logo.png" class="logo"> </a>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <div class="main-inner">
+            <h1>Srjo Fun Central</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Voluptatum illo temporibus eligendi voluptate vel.</p>
+        </div>
+        <div class="shadow one"></div>
+        <div class="shadow two"></div>
+        <div class="shadow three"></div>
+    </main>
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a href="#">HOME</a>
+            </li>
+            <li>
+                <a href="#">ABOUT</a>
+            </li>
+            <li>
+                <a href="#">PICTURES</a>
+            </li>
+            <li>
+                <a href="#">CONTACT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <script>
+        const hamburger = document.querySelector(".wrapper .hamburger");
+        hamburger.onclick = function() {
+            body = document.querySelector(".body");
+            body.classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>

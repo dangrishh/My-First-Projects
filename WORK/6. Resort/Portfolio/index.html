@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c15857b4a.js"crossorigin="anonymous"></script>
+
+</head>
+<body> 
+   
+    
+    <header id="header">
+        <nav>
+            <a class="logo" href="#header">
+                <img src="img/logo.png" alt="logo"/>
+                </a>
+                <ul class="menu">
+                    <li><a href="#header" class="">Home</a></li>
+                    <li><a href="#about" class="">About</a></li>
+                    <li><a href="#work" class="">Work</a></li>
+                    <li><a href="#contact" class="">Contact</a></li>
+                </ul>
+            </a>
+        </nav>
+
+        <div class="dt">
+            <img class="dt-pic" src="img/pictures-dt.png" alt="">
+        </div>
+
+         <div class="header-heading">
+             <h1>I'm <span>De Torres</span></h1>
+             <p>My name is Daniel De Torres I'm Lived in Pansol 
+                 Calamba City, </p>
+            <a class="header-btn" href="#contact">Contact</a>
+         </div>
+
+    </header>
+
+    <section id="about">
+                <div class="about-img">
+                    <img src="img/pic-about.png" alt="about-img"/>
+                </div>
+            <div class="about-text">
+
+                <div class="about--h1">
+                    <h1 class="-h1">About Me</h1>
+                    <h1 class="d-h1">About</h1>
+                </div>
+
+                <p>Me I Learn the basic HTML then CSS only because 
+                very hard to learn of Javascript then the PHP and the other Languages.
+                </p>
+
+                <div class="data">    
+                        <h2><span>Name:</span>          <h2 class="one txts">Daniel De Torres</h2></span></h2>
+                        <h2><span>Date of Bith:</span>  <h2 class="two txts">June 30, 2002</h2></span></h2> 
+                        <h2><span>Address:</span>       <h2 class="three txts">Pansol, Calamba City Purok 1 </h2></span></h2>
+                        <h2><span>Email:</span>         <h2 class="four txts">danieldetorres30gmail.com</h2></span></h2>
+                        <h2><span>Phone:</span>         <h2 class="five txts">0916-726-6833</h2></span></h2>
+                    <button class="header-btn">DOWNLOAD CV</button>
+                </div>
+
+            </div>
+    </section>
+     
+    <section id="work">
+
+        <div class="work--h1">
+            <h1 class="-h1">My Work<h1>
+            <h1 class="d-h1">Work</h1>
+        </div>
+
+        <div class="slidershow middle">     
+              
+          <div class="slides">
+            <input type="radio" name="r" id="r1" checked>
+            <input type="radio" name="r" id="r2">
+            <input type="radio" name="r" id="r3">
+            <input type="radio" name="r" id="r4">
+            <input type="radio" name="r" id="r5">
+            <div class="slide s1">
+              <img src="img/1.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/2.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/img2/lcd.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/img2/repair-cctv.jpg" alt="">
+            </div>
+            <div class="slide">
+              <img src="img/3.jpg" alt="">
+            </div>
+          </div>
+    
+          <div class="navigation">
+            <label for="r1" class="bar"></label>
+            <label for="r2" class="bar"></label>
+            <label for="r3" class="bar"></label>
+            <label for="r4" class="bar"></label>
+            <label for="r5" class="bar"></label>
+            <!--this is the button.-->
+          </div>
+    
+        </div>
+    </section>
+
+    <section id ="contact">
+        <div class ="work1-heading">
+
+            <div class="about--h1">
+                <h1 class="contact-me">Contact Me</h1>
+                <h1 class="contact">Contact</h1>
+
+                <p>If you have any concern and to repaired
+                 to me a your PC you try it to ask me anytime 
+                 just Fill up in this Blank</p>
+
+            </div>
+
+            
+         </div>
+
+         <div>
+         <div data-aos="fade-out">
+            <data-aos-duration="3000">
+         <form>
+             <input type="text" placeholder="Type Your Name"/>
+             <input type="tel" placeholder="Type Your Phone Number"/>
+             <input type="email" placeholder="Type Your E-mail"/>
+             <textarea placeholder="Type Your Message Here..."></textarea>
+             <input type="submit" value="Continue"/>
+         </form>
+        </div>
+    </section>
+
+        <div class="social-menu">
+            <ul>
+                <li><a href="https://www.facebook.com/danieldetorres30"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/De_Torres22"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.instagram.com/danieldetorres30/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCUL9CwywlsKwK2928UQpyEg"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://github.com/dangrishh"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
