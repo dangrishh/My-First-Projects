@@ -1,0 +1,55 @@
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    background: white;
+
+    display: grid;
+   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+   /* grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-auto-flow: column; */
+
+    /* ========== JUSTIFY =========== */
+
+    /* justify-items: center; 
+    justify-items: start;  
+    justify-items: end;  ========== JUSTIFY ===========
+    justify-items: center; */
+
+    /* ============ ALIGN ============ 
+    grid-template-columns: 1fr 1fr 1fr 1fr;                                                                     
+    align-items: center; 
+    /* align-items: start;
+    align-items: end; */
+
+    /* ============ PLACE =========== 
+          JUSTIFY And ALIGN        */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: end; /*    
+    place-items: start;
+    place-items: center; */
+}
+
+/* Napapagpalit nya ito using ah grid-row: 2/2 */
+
+main div {
+    height: 200px;
+    width: 200px;
+    
+}
+
+.group1 {
+    background: #9b8f8d;
+}
+.group2 {
+    background: #afa733;
+}
+.group3 {
+    background: #61775a;
+}
+.group4 {
+    background: #47bbff;
+}

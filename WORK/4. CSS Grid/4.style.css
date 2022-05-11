@@ -1,0 +1,56 @@
+* {
+    margin: 1px;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    background: rgb(255, 255, 255);
+
+    display: grid;
+
+    /* ========= GAP ========= *\
+    grid-gap: 15px; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    */
+
+    /* ====== Auto =========== *\
+    grid-template-rows: 1fr auto 1fr auto; /* ito ung auto niya ay
+     pwede mo lagyan ng sukat mismo sa group */
+
+    /* for Rows only *\
+    grid-auto-rows: 70px; */ 
+
+    /* for Columns *\
+    grid-auto-flow: column;
+    grid-auto-columns: 70px; */
+
+    /* ======= MINMAX ======= */
+
+    grid-template-columns: 1fr 1fr MINMAX(150px,1000px);
+    /* ( ito parang kaparehas siya ni responsive, nagiging solid siya */
+    row-gap: 5px;
+
+}
+
+.group1 { /*
+    grid-column: 1/2; - for column
+                ( in this grid-rows: 1/2 is fofr rows. */
+    background: #7a2f5b;
+}
+.group2 {
+    grid-column: 2/3;
+    background: #47ff94;
+}
+.group3 {
+    grid-column: 3/4;
+    background: #47eaff;
+}
+.group4 {
+    grid-column: 4/5;
+    /* for design website.
+    height: 500px;
+    width: 1000px; */
+    background: #ff47ff;
+}

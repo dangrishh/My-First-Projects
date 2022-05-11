@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    background: rgb(255, 255, 255);
+
+    display: grid;
+
+    /*======= REPEAT ======== *\
+    grid-template-rows: repeat(4, 1fr); */
+
+    /*====== Auto Fill ======= *\
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+        ito dito gagawa siya ng mga grid */
+
+    /* ======= Auto Fit ======= */
+    grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+
+
+}
+h1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+    top: 40%;
+    font-size: 3rem;
+}
+.group1 {
+    background: #32332D;
+}
+.group2 {
+    background: #39A0ED;
+}
+.group3 {
+    background: #16C4A1; 
+}
+.group4 {
+    background: #32332D;
+}
+
+.group5 {
+    background: #a7d6cd; 
+}
+
